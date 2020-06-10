@@ -10,4 +10,4 @@ function superbowlWin(arr){
   })
   return newarr;
 }
-superbowlWin();
+superbowlWin(record);
