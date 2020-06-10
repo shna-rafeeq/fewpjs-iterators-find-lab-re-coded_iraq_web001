@@ -8,12 +8,11 @@ function superbowlWin(arr){
  let newarr = arr.find((item)=>{
    
   if(item.result === "W"){
- let year = item.year;
+return item.year;
 
   } 
   
   })
-   return year
-  // return newarr;
+  return newarr;
 }
 superbowlWin(record);
