@@ -13,6 +13,6 @@ function superbowlWin(arr){
   } 
   
   })
-  return newarr;
+  // return newarr;
 }
 superbowlWin(record);
