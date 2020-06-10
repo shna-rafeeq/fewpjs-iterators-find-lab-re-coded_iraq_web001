@@ -9,7 +9,6 @@ function superbowlWin(arr){
    
   if(item.result === "W"){
   return item.year;
-
   } 
   
   })
