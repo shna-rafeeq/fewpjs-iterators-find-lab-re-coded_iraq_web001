@@ -7,7 +7,7 @@ function testFunc() {
 function superbowlWin(arr){
  let newarr = arr.find((item)=>{
    
- let year = object.assign({},item.year === "1969")
+ let year = Object.assign({},item.year === "1969")
   return year;
   })
   return newarr;
