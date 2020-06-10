@@ -8,7 +8,8 @@ function superbowlWin(arr){
  let newarr = arr.find((item)=>{
    
   if(item.result === "W"){
-   console.log("winner")
+ let year = item.year;
+ return year
   } 
   
   })
