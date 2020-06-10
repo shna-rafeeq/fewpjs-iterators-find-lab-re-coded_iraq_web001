@@ -6,7 +6,7 @@ function testFunc() {
 
 function superbowlWin(arr){
  let newarr = arr.find((item)=>{
-   item.result == "W"
+  return item.result == "W"
   })
   return newarr;
 }
