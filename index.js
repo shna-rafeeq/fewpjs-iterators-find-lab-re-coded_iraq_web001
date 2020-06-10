@@ -5,8 +5,8 @@ function testFunc() {
 }
 const sadReality = record.map( yObj => Object.assign({}, yObj, { result: "N/A" } ) )
 
-function superbowlWin(record){
- let newarr = arr.find((item)=>{
+function superbowlWin(sadReality){
+ let newarr = sadReality.find((item)=>{
    
   return item.result === "W"
  
