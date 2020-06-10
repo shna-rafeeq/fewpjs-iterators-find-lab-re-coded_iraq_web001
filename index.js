@@ -4,6 +4,9 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin(){
-  
+function superbowlWin(arr){
+  arr.find((result)=>{
+    result ==
+    
+  })
 }
